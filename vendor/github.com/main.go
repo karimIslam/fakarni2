@@ -20,11 +20,11 @@ import (
 
 	"github.com/ar-maged/guc-api/factory"
 	"github.com/ar-maged/guc-api/util"
-	"github.com/golang.org/x/net/context"
-	"github.com/golang.org/x/oauth2"
-	"github.com/golang.org/x/oauth2/google"
-	calendar "github.com/google.golang.org/api/calendar/v3"
 	cors "github.com/heppu/simple-cors"
+	"golang.org/x/net/context"
+	"golang.org/x/oauth2"
+	"golang.org/x/oauth2/google"
+	calendar "google.golang.org/api/calendar/v3"
 )
 
 var (
